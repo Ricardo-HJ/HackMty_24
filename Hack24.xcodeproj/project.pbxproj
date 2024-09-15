@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4400199D2C96C26100BA61F9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4400199C2C96C26100BA61F9 /* PersistenceController.swift */; };
+		440019DE2C96F9FA00BA61F9 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440019DD2C96F9FA00BA61F9 /* Config.plist */; };
+		44001A1B2C97066D00BA61F9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44001A1A2C97066D00BA61F9 /* ChatView.swift */; };
+		44001A1D2C97069000BA61F9 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44001A1C2C97069000BA61F9 /* ChatViewModel.swift */; };
+		44001A1F2C97071000BA61F9 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44001A1E2C97071000BA61F9 /* APICaller.swift */; };
 		44439E962C96581000F3758B /* Hack24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439E952C96581000F3758B /* Hack24App.swift */; };
 		44439E982C96581000F3758B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439E972C96581000F3758B /* ContentView.swift */; };
 		44439E9A2C96581000F3758B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439E992C96581000F3758B /* Item.swift */; };
@@ -15,6 +20,11 @@
 		44439EA92C96581200F3758B /* Hack24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439EA82C96581200F3758B /* Hack24Tests.swift */; };
 		44439EB32C96581200F3758B /* Hack24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439EB22C96581200F3758B /* Hack24UITests.swift */; };
 		44439EB52C96581200F3758B /* Hack24UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439EB42C96581200F3758B /* Hack24UITestsLaunchTests.swift */; };
+		44439ECA2C96B3C100F3758B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44439EC92C96B3C100F3758B /* AuthViewModel.swift */; };
+		44B7585C2C96B51600175597 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7585B2C96B51600175597 /* SignInView.swift */; };
+		44B7585E2C96B52F00175597 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7585D2C96B52F00175597 /* RegisterView.swift */; };
+		44B758602C96B5D500175597 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7585F2C96B5D500175597 /* HomePageView.swift */; };
+		44B758632C96B9C900175597 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44B758612C96B9C900175597 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4400199C2C96C26100BA61F9 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		440019DD2C96F9FA00BA61F9 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		44001A1A2C97066D00BA61F9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		44001A1C2C97069000BA61F9 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		44001A1E2C97071000BA61F9 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		44439E922C96581000F3758B /* Hack24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hack24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44439E952C96581000F3758B /* Hack24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack24App.swift; sourceTree = "<group>"; };
 		44439E972C96581000F3758B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +61,11 @@
 		44439EAE2C96581200F3758B /* Hack24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44439EB22C96581200F3758B /* Hack24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack24UITests.swift; sourceTree = "<group>"; };
 		44439EB42C96581200F3758B /* Hack24UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack24UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44439EC92C96B3C100F3758B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		44B7585B2C96B51600175597 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		44B7585D2C96B52F00175597 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		44B7585F2C96B5D500175597 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		44B758622C96B9C900175597 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +116,18 @@
 		44439E942C96581000F3758B /* Hack24 */ = {
 			isa = PBXGroup;
 			children = (
+				440019DD2C96F9FA00BA61F9 /* Config.plist */,
+				44B758612C96B9C900175597 /* DataModel.xcdatamodeld */,
+				4400199C2C96C26100BA61F9 /* PersistenceController.swift */,
+				44B7585B2C96B51600175597 /* SignInView.swift */,
+				44439EC92C96B3C100F3758B /* AuthViewModel.swift */,
+				44001A1A2C97066D00BA61F9 /* ChatView.swift */,
+				44001A1C2C97069000BA61F9 /* ChatViewModel.swift */,
+				44001A1E2C97071000BA61F9 /* APICaller.swift */,
+				44B7585F2C96B5D500175597 /* HomePageView.swift */,
 				44439E952C96581000F3758B /* Hack24App.swift */,
 				44439E972C96581000F3758B /* ContentView.swift */,
+				44B7585D2C96B52F00175597 /* RegisterView.swift */,
 				44439E992C96581000F3758B /* Item.swift */,
 				44439E9B2C96581200F3758B /* Assets.xcassets */,
 				44439E9D2C96581200F3758B /* Preview Content */,
@@ -235,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44439E9F2C96581200F3758B /* Preview Assets.xcassets in Resources */,
+				440019DE2C96F9FA00BA61F9 /* Config.plist in Resources */,
 				44439E9C2C96581200F3758B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4400199D2C96C26100BA61F9 /* PersistenceController.swift in Sources */,
+				44439ECA2C96B3C100F3758B /* AuthViewModel.swift in Sources */,
+				44001A1B2C97066D00BA61F9 /* ChatView.swift in Sources */,
+				44B758632C96B9C900175597 /* DataModel.xcdatamodeld in Sources */,
 				44439E982C96581000F3758B /* ContentView.swift in Sources */,
 				44439E9A2C96581000F3758B /* Item.swift in Sources */,
+				44B7585E2C96B52F00175597 /* RegisterView.swift in Sources */,
+				44001A1F2C97071000BA61F9 /* APICaller.swift in Sources */,
 				44439E962C96581000F3758B /* Hack24App.swift in Sources */,
+				44B758602C96B5D500175597 /* HomePageView.swift in Sources */,
+				44001A1D2C97069000BA61F9 /* ChatViewModel.swift in Sources */,
+				44B7585C2C96B51600175597 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +626,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44B758612C96B9C900175597 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44B758622C96B9C900175597 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 44B758622C96B9C900175597 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = /Users/pato/Documents/HackMty_24/Hack24/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 44439E8A2C96581000F3758B /* Project object */;
 }
